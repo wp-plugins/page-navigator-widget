@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: page navigator widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-15 13:46+0100\n"
+"PO-Revision-Date: 2010-03-15 13:46+0100\n"
+"Last-Translator: J.N. Breetvelt <opajaap@opajaap.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: page-navigator-widget.php:19
+msgid "Your blog&#8217;s WordPress Pages Menu"
+msgstr "Het Pagina menu van uw WP blog"
+
+#: page-navigator-widget.php:20
+msgid "Page Navigator"
+msgstr "Pagina Navigatie"
+
+#: page-navigator-widget.php:32
+msgid "Pages Menu"
+msgstr "Pagina Menu"
+
+#: page-navigator-widget.php:130
+msgid "Title:"
+msgstr "Titel:"
+
+#: page-navigator-widget.php:132
+msgid "Sort by:"
+msgstr "Sorteren op:"
+
+#: page-navigator-widget.php:134
+msgid "Page title"
+msgstr "Pagina titel"
+
+#: page-navigator-widget.php:135
+msgid "Page order"
+msgstr "Pagina volgordenummer"
+
+#: page-navigator-widget.php:136
+msgid "Page ID"
+msgstr "Pagina nummer"
+
+#: page-navigator-widget.php:140
+msgid "Exclude:"
+msgstr "Uitgezonderd:"
+
+#: page-navigator-widget.php:142
+msgid "Page IDs, separated by commas."
+msgstr "Pagina nummers, gescheiden door komma's."
+
+#: page-navigator-widget.php:145
+msgid "Add a Home link:"
+msgstr "Voeg een 'Home-link' toe:"
+
+#: page-navigator-widget.php:147
+msgid "Always"
+msgstr "Altijd"
+
+#: page-navigator-widget.php:148
+msgid "When viewing a page only"
+msgstr "Alleen wanneer een pagina bekeken wordt"
+
+#: page-navigator-widget.php:149
+msgid "Never"
+msgstr "Nooit"
+
+#: page-navigator-widget.php:152
+msgid "Select when you want a Home-link to be added."
+msgstr "Kies wanneer u er een 'Home-link' bij wilt."
+
+#~ msgid "Pages Plus"
+#~ msgstr "Pagina's Plus"
