@@ -2,7 +2,7 @@
 /*
 Plugin Name: Page Navigator Widget
 Description: The page widget that works as you want it to be
-Version: 1.0
+Version: 1.1
 Author: J.N. Breetvelt a.k.a OpaJaap
 Author URI: http://www.opajaap.nl/
 Plugin URI: http://wordpress.org/extend/plugins/page-navigator-widget
@@ -45,6 +45,7 @@ class PageNavigatorWidget extends WP_Widget {
 		else {
 			$index = '0';
 			if (isset($_REQUEST['page_id'])) $page = $_REQUEST['page_id'];
+	else $page = '0';	// Fix?
 			$page_ancestors[$index] = $page;	// Yep, got one
 			while ($page != '0') {			// Are there more?
 				$index++;
