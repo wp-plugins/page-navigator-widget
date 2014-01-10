@@ -2,7 +2,7 @@
 /*
 Plugin Name: Page Navigator Widget
 Description: The page widget that works as you want it to be
-Version: 1.1
+Version: 1.2
 Author: J.N. Breetvelt a.k.a OpaJaap
 Author URI: http://www.opajaap.nl/
 Plugin URI: http://wordpress.org/extend/plugins/page-navigator-widget

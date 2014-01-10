@@ -2,12 +2,12 @@
 Contributors: opajaap
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=OpaJaap@OpaJaap.nl&item_name=Page-Navigator-Widget&item_number=Support-Open-Source&currency_code=USD
 Tags: page, navigator, widget, subpage, subpages
-Version: 1.1
+Version: 1.2
 Stable tag: trunk
 Author: J.N. Breetvelt
 Author URI: http://www.opajaap.nl/
 Requires at least: 2.1
-Tested up to: 2.9.1
+Tested up to: 3.8
 
 This plugin is a replacement for the standard Page widget, that works how you want it to do. 
 
@@ -48,6 +48,10 @@ The standard configurability of Widget title, Excluded pages, Sort order.
 4. The display of the plugin when on a sub-page
 
 == Changelog ==
+
+= 1.2 =
+
+* Tested on WP 3.8
 
 = 1.1 =
 
