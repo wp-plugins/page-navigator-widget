@@ -2,7 +2,7 @@
 Contributors: opajaap
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=OpaJaap@OpaJaap.nl&item_name=Page-Navigator-Widget&item_number=Support-Open-Source&currency_code=USD
 Tags: page, navigator, widget, subpage, subpages
-Version: 1.2
+Version: 1.3
 Stable tag: trunk
 Author: J.N. Breetvelt
 Author URI: http://www.opajaap.nl/
@@ -48,6 +48,10 @@ The standard configurability of Widget title, Excluded pages, Sort order.
 4. The display of the plugin when on a sub-page
 
 == Changelog ==
+
+= 1.3 =
+
+* Page titles in multi-language based on qTranslate rules are now displayed in the currect language.
 
 = 1.2 =
 

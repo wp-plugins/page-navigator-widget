@@ -2,7 +2,7 @@
 /*
 Plugin Name: Page Navigator Widget
 Description: The page widget that works as you want it to be
-Version: 1.2
+Version: 1.3
 Author: J.N. Breetvelt a.k.a OpaJaap
 Author URI: http://www.opajaap.nl/
 Plugin URI: http://wordpress.org/extend/plugins/page-navigator-widget
@@ -86,7 +86,7 @@ class PageNavigatorWidget extends WP_Widget {
 			}
 			foreach ($pages as $page) {
 				if (!in_array( $page['ID'], $exclude_array)) {
-					$widget_content .= '<li><a href="' . get_page_link($page['ID']) . '">' . $page['post_title'] . '</a></li>';
+					$widget_content .= '<li><a href="' . get_page_link($page['ID']) . '">' . __( $page['post_title'] ) . '</a></li>';
 					$found = false;
 					$i = 0;
 					while ($i < count($page_ancestors)) {
