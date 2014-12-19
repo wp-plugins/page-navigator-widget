@@ -7,7 +7,7 @@ Stable tag: trunk
 Author: J.N. Breetvelt
 Author URI: http://www.opajaap.nl/
 Requires at least: 2.1
-Tested up to: 4.0
+Tested up to: 4.1
 
 This plugin is a replacement for the standard Page widget, that works how you want it to do. 
 
