@@ -2,7 +2,7 @@
 /*
 Plugin Name: Page Navigator Widget
 Description: The page widget that works as you want it to be
-Version: 1.3
+Version: 1.4
 Author: J.N. Breetvelt a.k.a OpaJaap
 Author URI: http://www.opajaap.nl/
 Plugin URI: http://wordpress.org/extend/plugins/page-navigator-widget
@@ -14,10 +14,9 @@ load_plugin_textdomain('pnw', 'wp-content/plugins/page-navigator-widget/langs/',
  */
 class PageNavigatorWidget extends WP_Widget {
     /** constructor */
-    function PageNavigatorWidget() {
-        parent::WP_Widget(false, $name = 'Page Navigator Widget');	
+    function __construct() {
 		$widget_ops = array('classname' => 'widget_pages_plus', 'description' => __( 'Your blog&#8217;s WordPress Pages Menu', 'pnw') );	//
-		$this->WP_Widget('pages_plus', __('Page Navigator', 'pnw'), $widget_ops);															//
+		parent::__construct('pages_plus', __('Page Navigator', 'pnw'), $widget_ops);															//
     }
 
 	/** @see WP_Widget::widget */
